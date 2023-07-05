@@ -1,0 +1,30 @@
+.home{
+    color: white;
+    text-decoration-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: space-around; */
+}
+.hr,
+.jobposting,
+.candidate{
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+    background-color: rgb(1, 65, 65);
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+
+  .candidate:hover {
+    background-color: aquamarine;
+    transform:scale(1.1);
+  }
+  .hr:hover {
+    background-color: aquamarine;
+    transform:scale(1.1);
+  }
+  .jobposting:hover {
+    background-color: aquamarine;
+    transform:scale(1.1);
+  }
